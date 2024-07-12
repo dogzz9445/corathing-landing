@@ -47,6 +47,7 @@ export default function RootLayout({
           >
             <CartProvider>
               <div>
+                <Banner />
                 <Header />
                 {children}
               </div>
